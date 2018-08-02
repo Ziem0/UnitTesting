@@ -1,0 +1,68 @@
+2018-07-30 16:26:43 DEBUG SimpleLogger:11 - debug ziemo
+2018-07-30 16:26:43 INFO  SimpleLogger:14 - info ziemo
+2018-07-30 16:26:43 WARN  SimpleLogger:16 - warn ziemo
+2018-07-30 16:26:43 ERROR SimpleLogger:17 - error ziemo
+2018-07-30 16:26:43 FATAL SimpleLogger:18 - fatal ziemo
+2018-07-30 16:27:07 DEBUG SimpleLogger:11 - debug ziemo
+2018-07-30 16:27:07 INFO  SimpleLogger:14 - info ziemo
+2018-07-30 16:27:07 WARN  SimpleLogger:16 - warn ziemo
+2018-07-30 16:27:07 ERROR SimpleLogger:17 - error ziemo
+2018-07-30 16:27:07 FATAL SimpleLogger:18 - fatal ziemo
+2018-07-30 16:31:24 DEBUG SimpleLogger:12 - debug ziemo
+2018-07-30 16:31:24 INFO  SimpleLogger:15 - info ziemo
+2018-07-30 16:31:24 WARN  SimpleLogger:17 - warn ziemo
+2018-07-30 16:31:24 ERROR SimpleLogger:18 - error ziemo
+2018-07-30 16:31:24 FATAL SimpleLogger:19 - fatal ziemo
+2018-07-30 16:35:13 ERROR SimpleLogger:14 - / by zero
+2018-07-30 16:37:25 ERROR SimpleLogger:14 - you cant divide by 0
+java.lang.ArithmeticException: / by zero
+	at java.lang.Math.floorDiv(Math.java:1052)
+	at com.ziemo.fileReader.SimpleLogger.div(SimpleLogger.java:12)
+	at com.ziemo.fileReader.SimpleLogger.main(SimpleLogger.java:33)
+2018-07-30 17:25:38 INFO  SimpleLogger:21 - correct string length
+2018-07-30 19:08:34 ERROR SimpleLogger:17 - co to jest
+2018-07-30 19:08:53 ERROR SimpleLogger:17 - co to jest / by zero
+2018-07-30 19:09:13 ERROR SimpleLogger:17 - co to / by zero jest 
+2018-07-30 19:14:46 ERROR SimpleLogger:15 - co to / by zero jest 
+2018-07-30 19:14:46 INFO  SimpleLogger:22 - correct string length
+2018-07-30 19:21:53 ERROR SimpleLogger:15 - co to / by zero jest 
+2018-07-30 19:21:53 INFO  SimpleLogger:22 - correct string length
+2018-07-30 20:04:47 ERROR SimpleLogger:17 - co to / by zero jest 
+2018-07-30 20:04:47 INFO  SimpleLogger:24 - correct string length
+2018-07-30 20:05:35 ERROR SimpleLogger:16 - co to jest / by zero
+2018-07-30 20:05:35 INFO  SimpleLogger:23 - correct string length
+2018-07-30 20:05:43 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:05:43 INFO  SimpleLogger:23 - correct string length
+2018-07-30 20:06:12 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:06:12 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:06:28 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:06:28 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:08:02 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:08:02 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:08:22 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:08:22 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:09:02 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:09:02 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:09:07 ERROR SimpleLogger:16 - co to jest / by zero end
+2018-07-30 20:09:07 INFO  SimpleLogger:23 - correct string length end
+2018-07-30 20:13:11 ERROR SimpleLogger:18 - co to jest / by zero end
+2018-07-30 20:13:11 INFO  SimpleLogger:25 - correct string length end
+2018-07-30 20:14:58 ERROR SimpleLogger:19 - co to jest / by zero end
+2018-07-30 20:54:22 ERROR SimpleLogger:25 - co to jest / by zero end
+2018-07-30 20:54:22 INFO  SimpleLogger:32 - correct string length end
+2018-07-30 20:54:59 ERROR SimpleLogger:25 - co to jest / by zero end
+2018-07-30 20:54:59 INFO  SimpleLogger:32 - correct string length end
+2018-07-30 20:55:23 ERROR SimpleLogger:25 - co to jest / by zero end
+2018-07-30 20:55:23 INFO  SimpleLogger:32 - correct string length end
+2018-07-30 20:55:36 ERROR SimpleLogger:25 - co to jest / by zero end
+2018-07-30 20:55:36 INFO  SimpleLogger:32 - correct string length end
+2018-07-30 20:56:57 ERROR SimpleLogger:25 - co to jest / by zero end
+2018-07-30 20:56:57 INFO  SimpleLogger:32 - correct string length end
+2018-07-30 21:21:53 ERROR SimpleLogger:27 - co to jest / by zero end
+2018-07-30 21:21:53 INFO  SimpleLogger:34 - correct string length end
+2018-08-01 14:55:02 ERROR SimpleLogger:27 - co to jest / by zero end
+2018-08-01 14:55:02 INFO  SimpleLogger:34 - correct string length end
+2018-08-01 14:55:09 ERROR SimpleLogger:27 - co to jest / by zero end
+2018-08-01 14:55:09 INFO  SimpleLogger:34 - correct string length end
+2018-08-01 21:44:46 ERROR SimpleLogger:27 - co to jest / by zero end
+2018-08-01 21:44:46 INFO  SimpleLogger:34 - correct string length end
