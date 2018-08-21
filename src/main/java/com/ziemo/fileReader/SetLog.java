@@ -32,7 +32,13 @@ public class SetLog {
     }
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         System.out.println("ziemo");
+||||||| merged common ancestors
+        System.out.println("git");
+=======
+        System.out.println("local");
+>>>>>>> b1f7cf55b48a080fc9104bcddb9ab01932d03854
     }
 }
 }
