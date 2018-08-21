@@ -36,6 +36,4 @@ public class SetLog {
         System.out.println("localMaster");
     }
 
-    }
-
 }
