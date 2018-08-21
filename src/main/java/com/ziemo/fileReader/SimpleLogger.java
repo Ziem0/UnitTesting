@@ -89,15 +89,5 @@ public class SimpleLogger {
         s.div();
         s.workingFoo("ziemo");
 
-
-
-        /*
-        check:
-        - log to 2 files
-        - logowanie jednego komunikatu na dwa poziomy: debug i info
-        - gdzie zawrzec konfiguracje (uruchomienie)
-        - sprawdzic czy jak utworze podklase dla klasy z loggerem to jaka bedzie nazwa loggera dla podklasy jesli uzywam lombok
-            - jesli lombok daje jako static to nazwa zawsze bedzie od nadrzednej
-         */
     }
 }

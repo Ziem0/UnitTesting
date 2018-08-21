@@ -32,16 +32,15 @@ public class SetLog {
     }
     
     public static void local() {
-        System.out.println("method for start");
+        System.out.println("method for start2");
     }
 
     public static void remote() {
-        System.out.println("method for middle???");
+        System.out.println("method for middle2");
     }
 
     public static void main(String[] args) {
-        System.out.println("remoteMaster");
-        System.out.println("ending");
+        System.out.println("ending2");
     }
 
 }
