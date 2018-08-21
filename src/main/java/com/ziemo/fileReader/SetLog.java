@@ -35,6 +35,10 @@ public class SetLog {
         System.out.println("method for local");
     }
 
+    public static void remote() {
+        System.out.println("method for remote");
+    }
+
     public static void main(String[] args) {
         System.out.println("remoteMaster");
         System.out.println("localMaster");
