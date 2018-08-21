@@ -30,15 +30,25 @@ public class SetLog {
         }
         return log;
     }
+    
+    public static void local() {
+<<<<<<< Updated upstream
+        System.out.println("method for what?");
+||||||| merged common ancestors
+        System.out.println("method for local");
+=======
+        System.out.println("method for local");
+        System.out.println("method for remote added");
+>>>>>>> Stashed changes
+    }
+
+    public static void remote() {
+        System.out.println("method for remote");
+    }
 
     public static void main(String[] args) {
         System.out.println("remoteMaster");
-<<<<<<< Updated upstream
         System.out.println("localMaster");
-||||||| merged common ancestors
-=======
-        System.out.println("remoteMaster2");
->>>>>>> Stashed changes
     }
 
 }
