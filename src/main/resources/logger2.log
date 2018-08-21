@@ -19,3 +19,5 @@
 [INFO ] com.ziemo.fileReader.SimpleLogger correct string length end Data: 2018-08-01 14:55:09,263
 [ERROR] com.ziemo.fileReader.SimpleLogger co to jest / by zero end Data: 2018-08-01 21:44:46,002
 [INFO ] com.ziemo.fileReader.SimpleLogger correct string length end Data: 2018-08-01 21:44:46,014
+[ERROR] com.ziemo.fileReader.SimpleLogger co to jest / by zero end Data: 2018-08-20 14:39:01,008
+[INFO ] com.ziemo.fileReader.SimpleLogger correct string length end Data: 2018-08-20 14:39:01,018

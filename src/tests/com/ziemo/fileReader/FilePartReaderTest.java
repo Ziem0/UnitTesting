@@ -120,7 +120,7 @@ class FilePartReaderTest {
     }
 
     @TestFactory
-    public Stream<DynamicTest> testDynamic() {
+    Stream<DynamicTest> testDynamic() {
         List<Integer> lines = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
         List<String> output = new ArrayList<>(Arrays.asList("1a1"
                 , "1a1\r\n" +

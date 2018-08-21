@@ -66,3 +66,56 @@ java.lang.ArithmeticException: / by zero
 2018-08-01 14:55:09 INFO  SimpleLogger:34 - correct string length end
 2018-08-01 21:44:46 ERROR SimpleLogger:27 - co to jest / by zero end
 2018-08-01 21:44:46 INFO  SimpleLogger:34 - correct string length end
+2018-08-20 13:21:27 INFO  AdvLog:19 - Object has been set correctly
+2018-08-20 13:21:27 DEBUG AdvLog:24 - sum was set correctly
+2018-08-20 13:23:42 INFO  AdvLog:21 - Object has been set correctly
+2018-08-20 13:23:42 DEBUG AdvLog:26 - sum was set correctly
+2018-08-20 13:24:38 INFO  AdvLog:21 - Object has been set correctly
+2018-08-20 13:24:38 DEBUG AdvLog:26 - sum was set correctly
+2018-08-20 13:26:32 INFO  AdvLog:22 - Object has been set correctly
+2018-08-20 13:26:32 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 13:27:05 INFO  AdvLog:22 - Object has been set correctly
+2018-08-20 13:27:05 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 13:27:41 INFO  AdvLog:22 - Object has been set correctly
+2018-08-20 13:27:41 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 13:27:54 INFO  AdvLog:22 - Object has been set correctly
+2018-08-20 13:27:54 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 13:28:45 INFO  AdvLog:22 - Object has been set correctly
+2018-08-20 13:28:45 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 13:35:22 INFO  AdvLog:23 - Object has been set correctly
+2018-08-20 13:35:23 DEBUG AdvLog:28 - sum was set correctly
+2018-08-20 13:37:00 INFO  AdvLog:23 - Object has been set correctly
+2018-08-20 13:37:00 DEBUG AdvLog:28 - sum was set correctly
+2018-08-20 13:37:34 INFO  AdvLog:23 - Object has been set correctly
+2018-08-20 13:37:34 DEBUG AdvLog:28 - sum was set correctly
+2018-08-20 13:37:40 INFO  AdvLog:23 - Object has been set correctly
+2018-08-20 13:37:40 DEBUG AdvLog:28 - sum was set correctly
+2018-08-20 14:13:54 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:14:23 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:15:01 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:21:26 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:21:26 INFO  AdvLog:13 - Subclass log
+2018-08-20 14:21:49 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:21:49 INFO  AdvLog:13 - Subclass log
+2018-08-20 14:22:33 ERROR AdvLog2:23 - Object has been set correctly
+2018-08-20 14:22:34 INFO  AdvLog2:13 - Subclass log
+2018-08-20 14:23:28 ERROR AdvLog2:23 - Object has been set correctly
+2018-08-20 14:23:28 INFO  AdvLog2:13 - Subclass log
+2018-08-20 14:24:20 ERROR Sub:23 - Object has been set correctly
+2018-08-20 14:24:20 INFO  Sub:13 - Subclass log
+2018-08-20 14:25:00 ERROR AdvLog:23 - Object has been set correctly
+2018-08-20 14:25:00 DEBUG AdvLog:28 - sum was set correctly
+2018-08-20 14:25:18 ERROR Sub:23 - Object has been set correctly
+2018-08-20 14:25:18 INFO  Sub:13 - Subclass log
+2018-08-20 14:26:51 ERROR AdvLog:25 - Object has been set correctly
+2018-08-20 14:27:29 ERROR AdvLog:25 - Object has been set correctly
+2018-08-20 14:27:47 ERROR AdvLog:25 - Object has been set correctly
+2018-08-20 14:27:47 INFO  Sub:16 - Subclass log
+2018-08-20 14:31:26 ERROR AdvLog:22 - Object has been set correctly
+2018-08-20 14:31:26 DEBUG AdvLog:27 - sum was set correctly
+2018-08-20 14:39:01 ERROR SimpleLogger:27 - co to jest / by zero end
+2018-08-20 14:39:01 INFO  SimpleLogger:34 - correct string length end
+2018-08-20 14:39:35 ERROR AdvLog:21 - Object has been set correctly
+2018-08-20 14:39:36 DEBUG AdvLog:26 - sum was set correctly
+2018-08-20 14:39:53 ERROR AdvLog:21 - Object has been set correctly
+2018-08-20 14:39:53 INFO  Sub:16 - Subclass log

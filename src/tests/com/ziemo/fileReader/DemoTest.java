@@ -8,6 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.Spy;
+import org.powermock.reflect.Whitebox;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -30,13 +31,17 @@ class DemoTest {
         demo = new Demo("iras", 60, filePartReader);
     }
 
-    @Spy
+    @Mock
     private
-    FilePartReader filePartReader = spy(mock(FilePartReader.class));        //-->spy instead mock
+    FilePartReader filePartReader = mock(FilePartReader.class);        //-->spy instead mock
 
     @Spy
     private
     List<Integer> list = spy(LinkedList.class);
+
+    @Spy
+    private
+    LinkedList<String> list2 = spy(LinkedList.class);
 
     @Test
     void forSpy() {
@@ -44,6 +49,14 @@ class DemoTest {
         list.add(3);
         list.add(2);
         assertEquals(3, list.size());
+    }
+
+    @Test
+    void spyString() {
+        list2.add("Ziemo");
+        list2.add("ania");
+        list2.add("gabs");
+        assertEquals("gabs",list2.get(2),"incorrect output");
     }
 
     @Test

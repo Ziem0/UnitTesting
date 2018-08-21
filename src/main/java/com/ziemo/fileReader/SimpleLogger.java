@@ -18,7 +18,7 @@ public class SimpleLogger {
 
     private Connection conn = DataConnection.getConn();
     private PreparedStatement preparedStatement;
-//    private final Logger logger = getLogger(SimpleLogger.class);;   --> nie static
+//    private final Logger log = getLogger(SimpleLogger.class);; //  --> nie static - nie potrzebne dzieki lombok
 
     private int div() {
         try {
@@ -75,7 +75,6 @@ public class SimpleLogger {
         Appender app2 = new RollingFileAppender(lay2, "/home/ziemo/codecool/1_java/Test/FilePartReader/src/main/resources/logger2.log");
         BasicConfigurator.configure(app2);
 
-        Layout lay3 = new PatternLayout("[%p] %m");
         Appender app3 = new JDBCAppender();
         ((JDBCAppender) app3).setBufferSize(1);
         ((JDBCAppender) app3).setUser("ziemo");
@@ -90,5 +89,15 @@ public class SimpleLogger {
         s.div();
         s.workingFoo("ziemo");
 
+
+
+        /*
+        check:
+        - log to 2 files
+        - logowanie jednego komunikatu na dwa poziomy: debug i info
+        - gdzie zawrzec konfiguracje (uruchomienie)
+        - sprawdzic czy jak utworze podklase dla klasy z loggerem to jaka bedzie nazwa loggera dla podklasy jesli uzywam lombok
+            - jesli lombok daje jako static to nazwa zawsze bedzie od nadrzednej
+         */
     }
 }
