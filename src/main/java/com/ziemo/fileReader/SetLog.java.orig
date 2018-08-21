@@ -33,9 +33,12 @@ public class SetLog {
 
     public static void main(String[] args) {
         System.out.println("remoteMaster");
+<<<<<<< Updated upstream
         System.out.println("localMaster");
-    }
-
+||||||| merged common ancestors
+=======
+        System.out.println("remoteMaster2");
+>>>>>>> Stashed changes
     }
 
 }
