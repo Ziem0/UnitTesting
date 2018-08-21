@@ -37,12 +37,13 @@ public class SetLog {
     }
 
     public static void remote() {
-        System.out.println("method for remote");
+        System.out.println("method for waht???");
     }
 
     public static void main(String[] args) {
         System.out.println("remoteMaster");
         System.out.println("localMaster");
+        System.out.println("ending");
     }
 
 }
