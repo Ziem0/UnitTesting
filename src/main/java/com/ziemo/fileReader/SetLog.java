@@ -32,7 +32,7 @@ public class SetLog {
     }
     
     public static void local() {
-        System.out.println("method for local");
+        System.out.println("method for what?");
     }
 
     public static void remote() {
