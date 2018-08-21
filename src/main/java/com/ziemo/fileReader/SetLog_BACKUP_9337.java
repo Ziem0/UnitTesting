@@ -30,9 +30,14 @@ public class SetLog {
         }
         return log;
     }
+<<<<<<< Updated upstream
+    
+    public static void main(String[] args) {
+        System.out.println("git");
+=======
 
     public static void main(String[] args) {
         System.out.println("ziemo");
+>>>>>>> Stashed changes
     }
-}
 }
