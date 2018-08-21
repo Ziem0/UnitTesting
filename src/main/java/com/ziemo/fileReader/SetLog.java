@@ -31,4 +31,8 @@ public class SetLog {
         return log;
     }
 
+    public static void main(String[] args) {
+        System.out.println("remoteMaster");
+    }
+
 }
